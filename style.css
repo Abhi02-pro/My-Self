@@ -1,0 +1,126 @@
+*{
+    font-family: 'Girassol', cursive;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+/*navbar*/
+
+/*carosoul*/
+
+#carouselExampleCaptions{
+    position: relative;
+}
+
+.carousel-inner h1{
+    position: absolute;
+    font-size: 100px;
+    color: whitesmoke;
+    left:50%;
+    transform: translateX(-50%);
+    
+}
+
+.carousel-inner img{
+    height: 90vh;
+}
+
+@media(max-width:700px){
+
+    .carousel-inner img{
+        height: 50vh;
+    }
+
+    .carousel-inner h1{
+        position: absolute;
+        font-size: 30px;
+        color: whitesmoke;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    .welcome{
+        margin-bottom: 5px;
+    }
+
+    .tech{
+        margin-bottom: 5px;
+    }
+    
+}
+
+/*knowme*/
+#know-me {
+  
+    margin-top: 5%;
+}
+
+
+
+.my-img{
+    margin: 3% 0;
+    
+    text-align: center;
+}
+
+
+
+
+
+/*myhobbies*/
+#my-hobbies{
+    margin-top: 3%;
+    
+}
+
+
+#my-hobbies h3{
+    text-align: center;
+}
+    
+
+#my-hobbies img{
+    margin: 3% 0;
+    height:50vh;
+    
+}
+
+.btn{
+    cursor: pointer;
+}
+    
+
+#my-game{
+   
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.game-img{
+    
+    height: 30vh;
+    text-align: center;
+}
+
+@media(max-width:700px){
+    video{
+        margin: 0;
+        height: 50%;
+        width: 50%;
+    }
+}
+
+video{
+    margin-top: 2%;
+    height: 70%;
+    width: 70%;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+    background-image: linear-gradient(to left ,#0081CF, #FFC75F,#F9F871,#0081CF);
+}
